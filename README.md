@@ -1,6 +1,6 @@
 # PartekFlowGuide
 
-## Guide to Installation and Maintenance of Partek Flow
+### Guide to Installation and Maintenance of Partek Flow
 
 An Installation PDF [can be found here](https://github.com/disulfidebond/PartekFlowGuide/blob/master/Partek_Flow_setupAndInstallation.pdf). 
 Briefly, it provides instructions on how to setup and install on a single node RedHat server.
