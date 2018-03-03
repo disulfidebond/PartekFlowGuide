@@ -23,7 +23,7 @@ Logs for Partek mainly are useful during startup, but are found at /opt/partek_f
 
 The most recent log is stored in catalina.out and is usually what you want.
 
-Despite the fact that an institution may only have a limited number of licenses, Partek Flow is configured with a POSIX framework, meaning one root account that is desicned to set up additional accounts.  Logging for accounts is minimal, beyond technical information, and generally assumes each account will use the GUI as a log.  However, the apache access_log inside the partek_flow/logs directory can be used to derive information, and potentially create alerts.  For example, the following line with a fake IP address, will indicate that someone is looking at an analysis:
+Despite the fact that an institution may only have a small number of licenses, Partek Flow is configured with a POSIX mindset, meaning one root account is designed to set up additional accounts.  Logging for accounts is minimal, beyond technical information, and generally assumes each account will use the GUI as a log.  However, the apache access_log inside the partek_flow/logs directory can be used to derive information, and potentially create alerts.  For example, the following line with a fake IP address, will indicate that someone is looking at an analysis:
 
 >192.168.1.5 [01/Mar/2018:01:01:01 -0600] "POST /flow/ProjectThumbnail HTTP/1.1" 200 size: 20 bytes time: 2 millis
 
